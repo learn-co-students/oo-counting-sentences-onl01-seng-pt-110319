@@ -20,7 +20,7 @@ class String
   end
 
   def count_sentences
-  p  @punctuation =self.split(/[.!?][^.{3}]/)
-  p  @punctuation.count
+   @punctuation =self.split(/[.!?][^.{3}]/)
+   @punctuation.count
   end
 end
